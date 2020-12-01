@@ -1,0 +1,48 @@
+/* Custom CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    min-height: 100%;
+}
+body{
+    background-image: url("../img/amy-hirschi-szrJ3wjzOMg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    width: 300px;
+    margin: 250px auto;
+}
+.login-form h1{
+   font-size: 22px;
+   margin-bottom: 30px;
+}
+.login-form input{
+    margin-bottom: 5px;
+}
+.login-form .btn-primary{
+    width: 100%;
+}
+/*.bg-dark{
+    background-color:#35424a !important
+}*/
+.navbar{
+    margin-bottom: 30px;
+    border-bottom:#A0A603 3px solid;
+}
+
+.container{
+      padding: 20px auto;
+}
+
+.mr-auto{
+    margin-left: 90% !important;
+}
+.card-body {
+    
+    font-family: 'Lato', sans-serif;
+
+
+}

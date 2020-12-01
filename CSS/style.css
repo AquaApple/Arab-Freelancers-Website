@@ -1,0 +1,109 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+/* Begin Header Style */
+.header{
+    height: 70px;
+    font-size:20px;
+    background-color: #35424a;
+    border-bottom:#A0A603 3px solid;
+}
+.header ul  {
+  list-style-type: none;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 15px 5px;
+}
+.header h1 { 
+    color: chartreuse;
+    margin-top: 0px;
+    padding: 10px 0 0 10px;
+    float:left;
+}
+.header ul li a{
+    color: darkgray;
+    text-decoration: none;
+    padding: 15px 5px;
+    margin-top: 30px;
+}
+.header ul li a:hover{
+    color: floralwhite;
+}
+/* End Header Style */
+/* Begin Master Header */
+.master-header{
+    background-color: #33FFBD;
+    text-align: center;
+    padding: 20px 0;
+}
+.master-header img{
+    position: absolute; left: 50%; transform: translateX(-50%);
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+}
+.master-header h1{
+    margin-top: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* End Master Header */
+/* Content Begin*/
+.content {
+    text-align: center;
+    padding: 25px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.content .Portfolio h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0;
+}
+.content .Portfolio img {
+  width: 200px;
+  height: 200px;
+  padding: 20px 25px;
+}
+.content .Contact{
+    border: 1px solid #A0A603;
+    border-radius: 10px;
+    width: 400px;
+    /*margin:0 auto;*/
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+.Contact form{
+    padding:20px 20px 0;
+}
+.content form input,textarea{
+    margin-bottom: 12px;
+    padding: 0 15px;
+}
+.content .About p {
+    text-align: center;
+    padding: 20px;
+}
+.content .About h1 {
+    margin: 50px;
+}
+/* Content End */
+/* Footer Start */
+.footer{
+    background-color:#35424a;
+    text-align: center;
+    color:#FFF;
+    padding:15px 0;
+    /*margin-top: 20px;*/
+}
+.footer span {
+ color: whitesmoke;
+}
+/* Footer End */
